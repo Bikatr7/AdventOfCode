@@ -7,7 +7,7 @@ def get_soup(html_content):
 
 def fetch_problem(day):
     try:
-        puzzle = Puzzle(year=2024, day=day)
+        puzzle = Puzzle(year=2025, day=day)
         
         dir_path = f"solutions/{puzzle.year}/{day}"
         if(not os.path.exists(dir_path)):
